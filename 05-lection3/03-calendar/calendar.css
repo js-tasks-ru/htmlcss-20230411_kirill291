@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Sans+Pro&display=swap');
+
+.container-wrapper {
+    display: grid;
+    position: relative;
+}
+
+.calendar {
+    justify-self: center;
+    text-align: center;
+    padding: 4px;
+    background: #FFFFFF;
+    /* Gray 3 */
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+
+}
+
+div.month {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    margin: 4px;
+    padding: 24px;
+}
+
+.wk_days {
+    display: grid;
+    grid-template-columns: 36px 36px 36px 36px 36px 36px 36px;
+    grid-template-rows: 36px;
+    margin: 0px 30px;
+}
+
+.wk_day {
+    grid-column: auto;
+    grid-row: auto;
+    font-family: 'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #90A0B7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: 36px 36px 36px 36px 36px 36px 36px;
+    grid-template-rows: 36px 36px 36px 36px 36px;
+
+    margin-bottom: 32px;
+    justify-content: center;
+
+}
+
+.day {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #334D6E;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day_b_selection {
+    background: #4263EB;
+    color: #FFFFFF;
+}
+
+.day_s_selection {
+    /* не получалось реализовать прозрачность с hex, поэтому перевел в rgb */
+    background: rgb(160 177 245 / .2);
+}
