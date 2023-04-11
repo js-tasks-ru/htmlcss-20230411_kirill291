@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.button_container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    width: 189px;
+    height: 48px;
+    background: #4263EB;
+    border-radius: 8px;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.text_container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray_box {
+    height: 84%;
+    width: 94%;
+    background: #C4C4C4;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_box {
+    width: 84%;
+    height: 77%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: none;
+    flex-direction: column;
+    position: relative;
+}
+
+.cross_wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 9.33px;
+    height: 9.33px;
+    background: transparent;
+    margin-top: 15.33px;
+    margin-right: 15.33px;
+}
+
+.cross_wrapper span {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #495057;
+    border-radius: 20px;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.cross_wrapper span:first-child {
+    transform: translate(0, -50%) rotate(45deg);
+    top: 50%;
+}
+
+.cross_wrapper span:last-child {
+    bottom: 50%;
+    transform: translate(0, 50%) rotate(-45deg);
+}
+
+
+
+
+.heading {
+    align-self: flex-start;
+    color: #334D6E;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.modal_box .text {
+    position: relative;
+    font-family: 'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+
+    width: 81.3%;
+    margin-top: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
