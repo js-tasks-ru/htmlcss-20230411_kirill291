@@ -1,1 +1,56 @@
 /* Стилизация кнопки */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+.button {
+    height: 48px;
+    width: 189px;
+    border-radius: 8px;
+    position: relative;
+
+    margin-left: 33px;
+    margin-top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+
+    padding: 0;
+    border: none;
+}
+
+.primary_button {
+    background: #4263EB;
+    color: #FFFFFF;
+}
+
+.primary_button:hover{
+    background: #2342C0;
+}
+
+.button:disabled{
+    opacity: 0.5;
+}
+
+.secondary_button{
+    background: #7048E8;
+    color: #FFFFFF;
+}
+
+.secondary_button:hover{
+    background: #5028C6;
+}
+
+.alternate_button {
+    background: white;
+    border: 1px solid #ACB5BD;
+    color: #495057;
+    box-sizing: border-box;
+}
+
+.alternate_button:hover{
+    border: 1px solid #212429
+}
