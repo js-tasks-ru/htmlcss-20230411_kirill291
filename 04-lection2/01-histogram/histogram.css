@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+.header_сontainer {
+    display: flex;
+    flex-direction: row;
+    //justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: white;
+    width: 100%;
+    height: 15vh;
+}
+
+.header_heading {
+    position: relative;
+    margin-left: 11.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background: #F9FAFC;
+}
+
+.main_container {
+
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 135px;
+
+}
+
+.box {
+    width: 350px;
+    height: 367px;
+    border-radius: 12px;
+
+    background: #FFFFFF;
+    margin: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.box_heading {
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #212429;
+}
+
+
+.histogram {
+    width: 80%;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 16px 24px 24px 24px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 6%;
+}
+
+.histogram__bars {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+    height: 50px;
+}
+
+.histogram__bar {
+    flex: 1 0 auto;
+    margin-right: 1px;
+    background: #4263EB;
+}
+
+.histogram__bar:last-child {
+    margin-right: 0;
+}
+
+.histogram__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.histogram__title {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+    opacity: 0.8;
+}
+
+.histogram__link {
+    display: block;
+    color: #4263EB;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.histogram__total {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 39px;
+    display: block;
+    color: #212429;
+}
+
+
+.footer_сontainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    height: max-content;
+
+    padding: 55px 40px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    width: 44%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+}
