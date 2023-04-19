@@ -49,5 +49,5 @@
     transform: translateY(-50%);
 
     /* Black */
-    color: #212429;
+    color: var(--black);
 }
