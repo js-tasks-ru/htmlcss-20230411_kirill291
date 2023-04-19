@@ -9,9 +9,9 @@
     justify-self: center;
     text-align: center;
     padding: 4px;
-    background: #FFFFFF;
+    background: var(--white);
     /* Gray 3 */
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     border-radius: 8px;
 
 }
@@ -22,7 +22,7 @@ div.month {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #334D6E;
+    color: var(--month_clr);
     margin: 4px;
     padding: 24px;
 }
@@ -42,7 +42,7 @@ div.month {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #90A0B7;
+    color: var(--wk_day);
 
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ div.month {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    color: #334D6E;
+    color: var(--day);
 
     display: flex;
     align-items: center;
@@ -73,8 +73,8 @@ div.month {
 }
 
 .day_b_selection {
-    background: #4263EB;
-    color: #FFFFFF;
+    background: var(--day_b);
+    color: var(--white);
 }
 
 .day_s_selection {
