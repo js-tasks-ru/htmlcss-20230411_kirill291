@@ -43,10 +43,10 @@ summary:focus {
 }
 
 .accordion__item {
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     border-radius: 8px;
 
-    background: #FFFFFF;
+    background: var(--white);
     /* Gray 3 */
     margin-bottom: 8px;
 
@@ -60,12 +60,12 @@ summary:focus {
 }
 
 summary {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #212429;
+    color: var(--black);
 
     margin-left: 32px;
     margin-bottom: 0px;
@@ -74,13 +74,13 @@ summary {
 p {
     /* p */
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 
-    color: #495057;
+    color: var(--grey-4);
 
     margin-left: 32px;
     margin-bottom: 32px;
