@@ -12,6 +12,12 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+/* modal block starts */
+    --button-color: #4263EB;
+    --gray-box: #C4C4C4;
+    --heading: #334D6E;
+/* modal block ends */
+
     --error: var(--red);
     --success: var(--blue);
 

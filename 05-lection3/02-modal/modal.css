@@ -23,7 +23,7 @@ body {
 .button {
     width: 189px;
     height: 48px;
-    background: #4263EB;
+    background: var(--button-color);
     border-radius: 8px;
     text-align: center;
 
@@ -33,7 +33,7 @@ body {
     font-size: 16px;
     line-height: 19px;
 
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .text_container {
@@ -47,7 +47,7 @@ body {
 .gray_box {
     height: 84%;
     width: 94%;
-    background: #C4C4C4;
+    background: var(--gray-box);
     margin: 5px;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@ body {
 .modal_box {
     width: 84%;
     height: 77%;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px;
     display: none;
     flex-direction: column;
@@ -100,7 +100,7 @@ body {
 
 .heading {
     align-self: flex-start;
-    color: #334D6E;
+    color: var(--heading);
     margin-left: 40px;
     margin-bottom: 0px;
 }
@@ -112,7 +112,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #495057;
+    color: var(--grey-4);
 
     width: 81.3%;
     margin-top: 14px;
