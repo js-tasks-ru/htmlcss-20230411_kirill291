@@ -12,6 +12,11 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+/* histogram block starts */
+    --bckg-clr: #F9FAFC;
+    --histogram-clr: #4263EB;
+/* histogram block ends */
+
     --error: var(--red);
     --success: var(--blue);
 
