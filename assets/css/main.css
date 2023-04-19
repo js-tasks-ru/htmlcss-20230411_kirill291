@@ -12,6 +12,17 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+/* First task colors block starts */
+
+    --primary-button: #4263EB;
+    --primary-button__hover: #2342C0;
+    --secondary-button__hover: #5028C6;
+
+
+/* First task colors block ends */
+
+
+
     --error: var(--red);
     --success: var(--blue);
 

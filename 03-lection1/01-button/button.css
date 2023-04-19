@@ -10,7 +10,7 @@
 
     margin-left: 33px;
     margin-top: 16px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -23,12 +23,12 @@
 }
 
 .primary_button {
-    background: #4263EB;
-    color: #FFFFFF;
+    background: var(--primary-button);
+    color: var(--white);
 }
 
 .primary_button:hover{
-    background: #2342C0;
+    background: var(--primary-button__hover);
 }
 
 .button:disabled{
@@ -36,21 +36,21 @@
 }
 
 .secondary_button{
-    background: #7048E8;
-    color: #FFFFFF;
+    background: var(--purple);
+    color: var(--white);
 }
 
 .secondary_button:hover{
-    background: #5028C6;
+    background: var(--secondary-button__hover);
 }
 
 .alternate_button {
     background: white;
-    border: 1px solid #ACB5BD;
-    color: #495057;
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
     box-sizing: border-box;
 }
 
 .alternate_button:hover{
-    border: 1px solid #212429
+    border: 1px solid var(--black);
 }
