@@ -6,7 +6,7 @@
     //justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    background: white;
+    background: var(--white);
     width: 100%;
     height: 15vh;
 }
@@ -19,8 +19,7 @@
 body {
     padding: 0;
     margin: 0;
-
-    background: #F9FAFC;
+    background: var(--body-bkg);
 }
 
 .main_container {
@@ -38,7 +37,7 @@ body {
     height: 367px;
     border-radius: 12px;
 
-    background: #FFFFFF;
+    background: var(--white);
     margin: 30px;
 
     display: flex;
@@ -51,22 +50,22 @@ body {
 .box_heading {
     position: relative;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
 
-    color: #212429;
+    color: var(--black);
 }
 
 
 .histogram {
     width: 80%;
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     padding: 16px 24px 24px 24px;
 
     justify-content: center;
@@ -88,7 +87,7 @@ body {
 .histogram__bar {
     flex: 1 0 auto;
     margin-right: 1px;
-    background: #4263EB;
+    background: var(--histogram-clr);
 }
 
 .histogram__bar:last-child {
@@ -111,7 +110,7 @@ body {
 
 .histogram__link {
     display: block;
-    color: #4263EB;
+    color: var(--histogram-clr);
     font-size: 16px;
     line-height: 24px;
     margin-left: 20px;
@@ -130,7 +129,7 @@ body {
 .footer_сontainer {
     display: flex;
     flex-direction: column;
-    background: white;
+    background: var(--white);
     width: 100%;
     height: max-content;
 
@@ -143,7 +142,7 @@ body {
 .footer_text {
     width: 44%;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

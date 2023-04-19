@@ -12,6 +12,11 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+/* 'full-page'task block starts */
+    --body-bkg: #F9FAFC;
+    --histogram-clr: #4263EB;
+/* 'full-page'task block ends */
+
     --error: var(--red);
     --success: var(--blue);
 
