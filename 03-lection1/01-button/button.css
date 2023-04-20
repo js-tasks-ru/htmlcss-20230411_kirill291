@@ -1,15 +1,11 @@
 /* Стилизация кнопки */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
-
 .button {
     height: 48px;
     width: 189px;
     border-radius: 8px;
     position: relative;
 
-    margin-left: 33px;
-    margin-top: 16px;
     font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 500;
@@ -17,31 +13,37 @@
     line-height: 19px;
     /* identical to box height */
     text-align: center;
-
-    padding: 0;
     border: none;
+
+    cursor: pointer;
 }
 
 .primary_button {
-    background: var(--primary-button);
+    background: #4263EB;;
     color: var(--white);
+    margin-left: 33px;
+    margin-top: 16px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .primary_button:hover{
-    background: var(--primary-button__hover);
+    background: #2342C0;
 }
 
 .button:disabled{
     opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
 }
 
 .secondary_button{
     background: var(--purple);
     color: var(--white);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .secondary_button:hover{
-    background: var(--secondary-button__hover);
+    background: #5028C6;
 }
 
 .alternate_button {
@@ -49,6 +51,7 @@
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
     box-sizing: border-box;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .alternate_button:hover{
