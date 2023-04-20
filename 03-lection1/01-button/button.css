@@ -2,10 +2,8 @@
 
 .button {
     height: 48px;
-    width: 189px;
     border-radius: 8px;
     position: relative;
-
     font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 500;
@@ -14,8 +12,8 @@
     /* identical to box height */
     text-align: center;
     border: none;
-
     cursor: pointer;
+    padding: 10px 25px;
 }
 
 .primary_button {
