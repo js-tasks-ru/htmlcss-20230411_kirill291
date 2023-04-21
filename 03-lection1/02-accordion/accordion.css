@@ -1,65 +1,31 @@
-/* Стилизация аккордеона */
-/*
-.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
     display: none;
-}
-*/
-
-summary::-webkit-details-marker{display:none;}
-summary::-moz-list-bullet{list-style-type:none;}
-summary::marker{display:none;}
-summary {
-    display:block;
-    padding: .3em 1em .3em .9em;
-    font-size:1.4em;
-    cursor: pointer;
-    position: relative;
-}
-summary:before {
-    right: 32px;
-    color: transparent;
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
-    width: 1em;
-    height: 1em;
-    content: "";
-    position: absolute;
-    transition: transform .5s;
-}
-details[open] > summary:before {
-    transform: scale(1,-1);
-}
-summary ~ * {
-    padding: 0 1em 10px 1.4em;
-}
-details[open] summary ~ *{
-    animation: sweep .5s ease-in-out;
-}
-@keyframes sweep {
-    0%    {opacity: 0;}
-    100%  {opacity: 1;}
-}
-summary:focus {
-    outline:0;
 }
 
 .accordion__item {
-    border: 1px solid var(--grey-3);
-    border-radius: 8px;
-
-    background: var(--white);
-    /* Gray 3 */
     margin-bottom: 8px;
 
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    background: var(--white);
     display:block;
     overflow:hidden;
+    padding: 0 1em 0 1.4em;
 }
 
-.accordion__heading {
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+
+details[open] .accordion__x-cross{
+    transform: rotate(180deg);
+}
+
+.accordion__summary {
+
     margin-top: 24px;
     margin-bottom: 24px;
-}
 
-summary {
     font-family: 'Inter', sans-serif;;
     font-style: normal;
     font-weight: 400;
@@ -68,13 +34,12 @@ summary {
     color: var(--black);
 
     margin-left: 32px;
-    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-p {
-    /* p */
-
-    font-family: 'Inter', sans-serif;;
+.accordion__text {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -84,4 +49,8 @@ p {
 
     margin-left: 32px;
     margin-bottom: 32px;
+}
+
+.accordion__x-cross {
+    margin-right: 32px;
 }
