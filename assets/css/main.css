@@ -12,12 +12,6 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
- /* skeleton task block starts */
-    --gradient-color-1: #E2E6E8;
-    --gradient-color-2: #F3F5F5;
-    --gradient-color-3: #E3E7EA;
-/* skeleton task block ends */
-
     --error: var(--red);
     --success: var(--blue);
 
