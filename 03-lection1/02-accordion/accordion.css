@@ -10,7 +10,7 @@
     background: var(--white);
     display:block;
     overflow:hidden;
-    padding: 0 1em 0 1.4em;
+    padding: 32px 24px 32px 32px;
 }
 
 .accordion__item:last-child {
@@ -23,9 +23,6 @@ details[open] .accordion__x-cross{
 
 .accordion__summary {
 
-    margin-top: 24px;
-    margin-bottom: 24px;
-
     font-family: 'Inter', sans-serif;;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +30,6 @@ details[open] .accordion__x-cross{
     line-height: 24px;
     color: var(--black);
 
-    margin-left: 32px;
     display: flex;
     justify-content: space-between;
 }
@@ -46,9 +42,7 @@ details[open] .accordion__x-cross{
     line-height: 24px;
 
     color: var(--grey-4);
-
-    margin-left: 32px;
-    margin-bottom: 32px;
+    margin-top: 16px;
 }
 
 .accordion__x-cross {
