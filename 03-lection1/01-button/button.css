@@ -13,38 +13,34 @@
     text-align: center;
     border: none;
     cursor: pointer;
-    padding: 10px 25px;
+    padding: 15px 15px 14px;
 }
 
-.primary_button {
-    background: #4263EB;;
+.button_primary {
+    background: #4263EB;
     color: var(--white);
-    margin-left: 33px;
-    margin-top: 16px;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.primary_button:hover{
+.button_primary:hover{
     background: #2342C0;
 }
 
 .button:disabled{
     opacity: 0.5;
-    pointer-events: none;
     cursor: not-allowed;
 }
 
-.secondary_button{
+.button_secondary{
     background: var(--purple);
     color: var(--white);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.secondary_button:hover{
+.button_secondary:hover{
     background: #5028C6;
 }
 
-.alternate_button {
+.button_alternate {
     background: white;
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
@@ -52,6 +48,6 @@
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.alternate_button:hover{
+.button_alternate:hover{
     border: 1px solid var(--black);
 }
