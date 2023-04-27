@@ -17,7 +17,7 @@
     margin-bottom: 0;
 }
 
-details[open] .accordion__x-cross{
+.accordion__item[open] .accordion__x-cross{
     transform: rotate(180deg);
 }
 
