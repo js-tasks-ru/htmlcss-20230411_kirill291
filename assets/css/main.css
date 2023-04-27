@@ -12,13 +12,6 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
-/* calendar block starts */
-    --month_clr: #334D6E;
-    --wk_day: #90A0B7;
-    --day: #334D6E;
-    --day_b: #4263EB;
-/* calendar block ends */
-
     --error: var(--red);
     --success: var(--blue);
 
