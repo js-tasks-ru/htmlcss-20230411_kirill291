@@ -10,7 +10,11 @@
     background: var(--white);
     display:block;
     overflow:hidden;
-    padding: 32px 24px 32px 32px;
+    padding: 24px 32px;
+}
+
+.accordion__item[open] {
+    padding-bottom: 32px;
 }
 
 .accordion__item:last-child {
