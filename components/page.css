@@ -1,0 +1,14 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    height: 100%;
+
+}
