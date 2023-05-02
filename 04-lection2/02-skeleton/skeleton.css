@@ -3,25 +3,21 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     -webkit-border-radius: 8px;
-    margin: 10px 15px;
-    height: 192px;
+    padding: 10px 15px;
 }
 
-.skeleton__wrapper-inner {
+.skeleton__wrapper-body {
     height: 100%;
     padding: 10%;
     position: relative;
 }
 
 .skeleton__wrapper-body div {
-    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
-}
-
-.skeleton__wrapper-body div {
-    position: absolute;
+position: absolute;
     right: 16px;
     left: 24px;
     top: 24px;
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
 }
 
 div.skeleton__avatar {
