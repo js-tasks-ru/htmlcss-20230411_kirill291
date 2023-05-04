@@ -15,7 +15,7 @@
     width: auto;
 }
 
-div.month {
+.month {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -71,12 +71,12 @@ div.month {
     justify-content: center;
 }
 
-.days__day_b_sel {
+.days__day_b-sel {
     background: #4263EB;
     color: #FFFFFF;
 }
 
-.days__day_s_sel {
+.days__day_s-sel {
     background: #A0B1F5;
 
 }
