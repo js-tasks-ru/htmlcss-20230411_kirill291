@@ -49,6 +49,11 @@
     margin-right: 0;
 }
 
+.histogram__chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .histogram__title {
     margin: 0;
