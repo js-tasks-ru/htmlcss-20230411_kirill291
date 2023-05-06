@@ -1,6 +1,6 @@
 
 
-.container-wrapper {
+.container__wrapper {
     display: grid;
     position: relative;
 }
