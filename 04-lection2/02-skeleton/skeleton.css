@@ -18,7 +18,7 @@
     width: 64px;
     border-radius: 50%;
     background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
-    /*margin-left: 16px;*/
+    margin-right: 16px;
 }
 
 .skeleton__info {
@@ -26,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    margin-left: 8px;
     width: 100%;
 }
 
@@ -45,9 +44,10 @@
 
 .skeleton__details {
     width: 30vw;
+    gap: 8px;
 }
 
 .skeleton__text_large {
-    margin-top: 8px;
+    /*margin-top: 8px;*/
     width: 100%;
 }
