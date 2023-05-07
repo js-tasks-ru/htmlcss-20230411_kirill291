@@ -1,39 +1,31 @@
-
-
-.container__wrapper {
-    display: grid;
-    position: relative;
-}
-
 .calendar {
     justify-self: center;
     text-align: center;
-    padding: 4px;
+    padding: 28px;
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    width: auto;
+    max-width: fit-content;
 }
 
-.month {
+.calendar__month {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #334D6E;;
-    margin: 4px;
-    padding: 24px;
+    color: #334D6E;
 }
 
-.wk__days {
+.calendar__days {
     display: grid;
-    grid-template-columns: 36px 36px 36px 36px 36px 36px 36px;
+    grid-template-columns: repeat(7, 36px);
     grid-template-rows: 36px;
-    margin: 0px 30px;
+    margin: 0 30px;
+    justify-content: center;
 }
 
-.wk__day {
+.calendar__day {
     grid-column: auto;
     grid-row: auto;
     font-family: 'Inter', sans-serif;;
@@ -48,17 +40,17 @@
     justify-content: center;
 }
 
-.days {
+.calendar__dates {
     display: grid;
-    grid-template-columns: 36px 36px 36px 36px 36px 36px 36px;
-    grid-template-rows: 36px 36px 36px 36px 36px;
+    grid-template-columns: repeat(7, 36px);
+    grid-template-rows: repeat(5, 36px);
 
     margin-bottom: 32px;
     justify-content: center;
 
 }
 
-.days__day {
+.calendar__date {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -71,12 +63,11 @@
     justify-content: center;
 }
 
-.days__day_b-sel {
+.calendar__date_b-sel {
     background: #4263EB;
     color: #FFFFFF;
 }
 
-.days__day_s-sel {
+.calendar__date_s-sel {
     background: #A0B1F5;
-
 }
