@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+  //  height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+    background-color: red; /* Цвет фона веб-страницы */
+   // margin-top: 0 px;
+   // width: 100%;
+    text-align:center;
+   // overflow: hidden;
+}
+
+header > nav {
+    background-color: orange;
+    min-height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 25%;
+}
+
+header > nav > a{
+    font-size: 1.25em;
+    color: white;
+}
+
+/*main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //align-content: space-between
+}*/
+
+main > article{
+    padding: 10px;
+    margin: 20px;
+    background-color: blue;
+}
+
+footer {
+    background-color: blueviolet;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer > p {
+    font-size: 2em;
+}
+
+
