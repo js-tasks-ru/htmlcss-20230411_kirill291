@@ -43,6 +43,7 @@
 }
 
 .skeleton__details {
+    display: grid;
     width: 30vw;
     gap: 8px;
 }
