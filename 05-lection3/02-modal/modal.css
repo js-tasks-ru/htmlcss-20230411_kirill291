@@ -32,7 +32,11 @@ body {
     font-size: 16px;
     line-height: 19px;
 
-    color: var(--white);
+    color: var(--white)
+}
+
+.button_text {
+
 }
 
 .information {
