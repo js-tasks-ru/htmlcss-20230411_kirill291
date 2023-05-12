@@ -1,7 +1,7 @@
 .calendar {
     justify-self: center;
     text-align: center;
-    padding: 28px;
+    padding: 26px 28px 32px;
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -19,21 +19,19 @@
 
 .calendar__days {
     display: grid;
-    grid-template-columns: repeat(7, 36px);
-    grid-template-rows: 36px;
-    margin: 0 30px;
+    grid-template-columns: repeat(7, 1fr);
     justify-content: center;
 }
 
 .calendar__day {
     grid-column: auto;
     grid-row: auto;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #90A0B7;;
+    color: #90A0B7;
 
     display: flex;
     align-items: center;
