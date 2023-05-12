@@ -1,5 +1,11 @@
 @import '../fonts/fonts.css';
 
+body {
+    padding: 0;
+    margin: 0;
+    background: #F9FAFC;
+}
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -23,8 +29,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    background: #F9FAFC;
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
 }
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;}
