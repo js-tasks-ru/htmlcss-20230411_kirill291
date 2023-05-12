@@ -28,8 +28,6 @@
     background-color: var(--white);
     justify-content: center;
     align-items: center;
-    padding: 20px;
-
 }
 
 .histogram__bars {
