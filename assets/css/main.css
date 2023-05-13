@@ -35,3 +35,10 @@ body {
     margin: 0;
     background: var(--body-bkg);
 }
+
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;}
