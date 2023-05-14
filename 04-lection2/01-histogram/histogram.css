@@ -3,6 +3,7 @@
     background: var(--white);
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .histogram__heading {
@@ -16,15 +17,13 @@
     color: var(--black);
 }
 
-
 .histogram__wrapper {
     width: 80%;
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 12px;
     background-color: var(--white);
-    justify-content: center;
-    align-items: center;
+    padding: 16px;
 }
 
 .histogram__bars {
@@ -68,4 +67,10 @@
     margin-bottom: 39px;
     display: block;
     color: var(--black);
+}
+
+.histogram__chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
