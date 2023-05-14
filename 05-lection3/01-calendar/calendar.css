@@ -6,7 +6,7 @@
     max-width: 300px;
 }
 
-.calendar__month {
+.calendar__title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
