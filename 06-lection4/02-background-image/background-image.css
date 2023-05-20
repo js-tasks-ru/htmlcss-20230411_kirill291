@@ -1,5 +1,6 @@
 body {
     background-image: url("public/forest_2560.jpg");
+    background-repeat: no-repeat;
     background-color: var(--body_bkg);
 }
 
