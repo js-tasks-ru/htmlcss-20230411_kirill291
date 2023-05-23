@@ -7,7 +7,19 @@
 
 .page__header {
     height: 82px;
-    background: #ffffff;
+    background: #F9FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__logo {
+    margin-left: 8px;
+    align-items: center;
+}
+
+.page__icon {
+    height: 100%;
 }
 
 .page__main {
@@ -65,6 +77,7 @@
     background: #FFFFFF;
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
+    height: 100%;
 }
 
 .component__wrapper {
@@ -81,7 +94,7 @@
 }
 
 .component__histogram {
-    width: 30%;
+    max-width: 30%;
     border: 1px solid gray;
     box-sizing: border-box;
     border-radius: 8px;
@@ -153,7 +166,7 @@
 
 .page__footer {
     text-transform: uppercase;
-    height: 130px;
+    min-height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,4 +175,23 @@
     font-size: 12px;
     line-height: 18px;
     background: #F9FAFC;
+}
+
+@media screen and (max-width: 800px) {
+
+    .page__main {
+        display: block;
+    }
+
+    .page__menu {
+        display: none;
+    }
+
+    .page__component {
+
+    }
+
+    .component__histogram {
+        max-width: 100%;
+    }
 }
