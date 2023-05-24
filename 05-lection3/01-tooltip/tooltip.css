@@ -1,70 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+.tooltip {
+    position: relative;
+}
 
-.helper{
-    width: 100%;
+.tooltip__anchor {
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px;
 }
 
-.helper:hover .tooltip {
-    display: flex;
-}
-
-.helper:hover i.helper__icon {
-    margin-top: 0px;
-}
-
-.tooltip__main {
-    width: 129px;
-    background: #4263EB;
-    border-radius: 10px;
-    text-align: center;
-    padding: 8px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+.tooltip__helper {
     font-size: 16px;
     line-height: 24px;
-    color: var(--grey-2);
-}
-
-.tooltip__tail {
-    width: 9px;
-    height: 9px;
+    text-align: center;
+    color: #DDE2E5;
+    padding: 13px 21px 8px;
     background: #4263EB;
-    transform: rotate(45deg);
-    margin-top: -5px;
-    margin-bottom: 3px;
-}
-
-.tooltip {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.helper__icon {
-    border: 2px var(--black);
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    margin-left: 5.5px;
-    margin-top: 47px;
-}
-
-.tooltip:after {
-    display: none;
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 10px;
     position: absolute;
-    top: 100%;
+    white-space: nowrap;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -100%);
+    top: -8px;
+
+    display: none;
+}
+
+.tooltip__helper:after {
     content: '';
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top: 5px solid #4263EB;
+    border: 14px solid transparent;
+    border-top: 6px solid #4263EB;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+}
+
+.tooltip:hover .tooltip__helper {
+    display: block;
 }
