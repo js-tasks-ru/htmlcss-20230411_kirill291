@@ -3,27 +3,10 @@
     background: var(--white);
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.histogram__heading {
-    position: relative;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-    color: var(--black);
-}
-
-.histogram__wrapper {
-    width: 80%;
+    padding: 16px 24px 24px 24px;
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
-    border-radius: 12px;
     background-color: var(--white);
-    padding: 16px;
 }
 
 .histogram__bars {
@@ -69,7 +52,7 @@
     color: var(--black);
 }
 
-.histogram__chart {
+.histogram__info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
