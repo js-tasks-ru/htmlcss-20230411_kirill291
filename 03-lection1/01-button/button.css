@@ -1,7 +1,8 @@
 /* Стилизация кнопки */
 
 .button {
-    height: 48px;
+    height: 20px;
+    min-width: 100px;
     border-radius: 8px;
     position: relative;
     font-family: 'Roboto', sans-serif;

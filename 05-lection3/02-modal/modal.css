@@ -1,34 +1,12 @@
-.button__primary {
-    border: none;
-    outline: none;
-    display: inline-block;
-    border-radius: 8px;
-    padding: 15px 20px 14px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    cursor: pointer;
-    min-width: 189px;
-    background: #4263EB;
-    color: #FFFFFF;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.button__primary:hover {
-    background: #2342C0;
-}
-
 .information {
-    position: fixed;
-    right: 0;
+    /*position: fixed;*/
+    margin-left: 156px;
     display: flex;
-    width: 60vw;
+    width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
-    margin: 35px 35px 34px;
-    background: #C4C4C4;
+    background: rgba(196, 196, 196, 1);
 }
 
 .information__modal {
@@ -38,7 +16,7 @@
     border-radius: 8px;
     display: none;
     flex-direction: column;
-    position: absolute;
+    position: relative;
 }
 
 .information__cross {
@@ -51,16 +29,6 @@
     background: transparent;
 }
 
-.information__cross span:first-child {
-    transform: translate(0, -50%) rotate(45deg);
-    top: 50%;
-}
-
-.information__cross span:last-child {
-    bottom: 50%;
-    transform: translate(0, 50%) rotate(-45deg);
-}
-
 .information__heading {
     align-self: flex-start;
     color: #334D6E;
@@ -68,7 +36,7 @@
     margin-bottom: 0;
 }
 
-.information__modal .information__text {
+.information__text {
     position: relative;
     font-family: 'Inter', sans-serif;
     font-style: normal;
