@@ -1,7 +1,7 @@
 /* Стилизация кнопки */
 
 .button {
-    height: 20px;
+    height: 48px;
     min-width: 100px;
     border-radius: 8px;
     position: relative;
@@ -10,7 +10,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     text-align: center;
     border: none;
     cursor: pointer;
