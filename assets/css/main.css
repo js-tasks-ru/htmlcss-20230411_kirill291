@@ -18,6 +18,10 @@ body {
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+/* avatar block starts */
+    --body_bkg: #cccccc;
+/* avatar block starts */
+
     --error: var(--red);
     --success: var(--blue);
 
