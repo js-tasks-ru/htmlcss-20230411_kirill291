@@ -37,5 +37,5 @@
     background: rgba(196, 196, 196, 0.5);
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
 }
