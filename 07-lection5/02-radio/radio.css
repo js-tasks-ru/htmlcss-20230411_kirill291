@@ -1,7 +1,6 @@
 .radio{
     display: inline-flex;
     position: relative;
-    margin-bottom: 10px;
 }
 
 .radio__input {
@@ -29,6 +28,10 @@
 }
 .radio__icon {
     display: none;
+    height: 18px;
+    width: 18px;
+    background-color: #4263EB;
+    border-radius: 50%;
 }
 .radio__title {
     font-family: 'Inter',sans-serif;
@@ -44,7 +47,7 @@
 }
 
 .radio__input:checked ~ .radio__state .radio__icon {
-    display: block;
+    display: inline-block;
 }
 
 .radio__input:focus ~ .radio__state .radio__title {
