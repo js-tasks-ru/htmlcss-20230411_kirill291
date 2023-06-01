@@ -1,6 +1,7 @@
 .checkbox{
     display: inline-flex;
     position: relative;
+    margin: 5px;
 }
 
 .checkbox__input {
