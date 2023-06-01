@@ -2,25 +2,23 @@
 <!-- Страница чекбокса -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="checkbox.css">
         <meta charset="windows-1251">
     </head>
     <body>
 
-    <form action="mailto:ihaid00k@gmail.com" enctype="text/plain">
-        <fieldset>
-            <label>
-                Ваше имя
-                <input type="text" name="name" required>
-            </label>
-            <label>
-                Что вы хотите заказать?
-                <input type="text" name="order" required>
-            </label>
-            <button type="submit">Сделать заказ</button>
-        </fieldset>
-    </form>
+    <label class="checkbox">
+        <input type="checkbox" class="checkbox__input">
+        <div class="checkbox__state">
+            <div class="checkbox__control">
+                <svg class="checkbox__icon" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 7.5L5 11L13 2"stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </div>
+            <div class="checkbox__title">Default</div>
+        </div>
+    </label>
 
     </body>
 </html>
