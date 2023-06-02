@@ -1,8 +1,8 @@
-.checkbox {
+.toggle {
     display: block;
 }
 
-.checkbox__input {
+.toggle__input {
     display: block;
     position: absolute;
     width: 1px;
@@ -12,21 +12,21 @@
     outline: none;
 }
 
-.checkbox__state {
+.toggle__state {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     cursor: pointer;
 }
 
-.checkbox__legend {
+.toggle__legend {
     font-size: 16px;
     line-height: 24px;
     color: #495057;
     margin-left: 12px;
 }
 
-.checkbox__control {
+.toggle__control {
     display: flex;
     align-items: center;
     width: 52px;
@@ -37,7 +37,7 @@
     background: #FFFFFF;
 }
 
-.checkbox__check {
+.toggle__check {
     width: 24px;
     height: 24px;
     margin-left: 2px;
@@ -45,55 +45,39 @@
     border-radius: 16px;
 }
 
-/*.checkbox__check-checked {
-    width: 24px;
-    height: 24px;
-    background: #DDE2E5;
-    border-radius: 16px;
-}
-*/
-
-.checkbox__checked {
-    display: none;
-    margin: auto;
-    width: 13px;
-    height: 10px;
-    color: white;
-}
-
-.checkbox__input:focus ~ .checkbox__state .checkbox__legend {
+.toggle__input:focus ~ .toggle__state .toggle__legend {
     text-decoration: underline;
 }
 
-.checkbox__input:disabled ~ .checkbox__state {
+.toggle__input:disabled ~ .toggle__state {
     cursor: not-allowed;
 }
 
-.checkbox__input:checked ~ .checkbox__state .checkbox__control {
+.toggle__input:checked ~ .toggle__state .toggle__control {
     flex-direction: row-reverse;
     background-color: #4263EB;
 }
 
-.checkbox__input:checked ~ .checkbox__state .checkbox__check {
+.toggle__input:checked ~ .toggle__state .toggle__check {
     background-color: #FFFFFF;
     border-color: #4263EB;
     margin-left: 0;
     margin-right: 2px;
 }
 
-.checkbox__input:checked ~ .checkbox__state .checkbox__control .checkbox__checked {
+.toggle__input:checked ~ .toggle__state .toggle__control .toggle__checked {
     display: block;
 }
 
-.checkbox__input:disabled ~ .checkbox__state .checkbox__check {
+.toggle__input:disabled ~ .toggle__state .toggle__check {
     background: #ACB5BD;
     opacity: 0.25;
 }
 
-.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
+.toggle__input:disabled ~ .toggle__state .toggle__control {
     background: #DDE2E5;
 }
 
-.checkbox__input:disabled ~ .checkbox__state .checkbox__legend {
+.toggle__input:disabled ~ .toggle__state .toggle__legend {
     color: #DDE2E5;
 }
