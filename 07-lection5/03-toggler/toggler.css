@@ -4,13 +4,9 @@
 }
 
 .toggle__input {
-    display: block;
     position: absolute;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
+    clip: rect(0, 0, 0, 0);
     pointer-events: none;
-    outline: none;
 }
 
 .toggle__state {
