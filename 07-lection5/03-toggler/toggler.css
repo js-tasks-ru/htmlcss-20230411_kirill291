@@ -1,5 +1,6 @@
 .toggle {
-    display: block;
+    display: inline-block;
+    position: relative;
 }
 
 .toggle__input {
