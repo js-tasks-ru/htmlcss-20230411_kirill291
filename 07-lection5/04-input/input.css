@@ -76,7 +76,7 @@
     visibility: visible;
 }
 
-.input__input_error ~ .input__input {
-    border-color: #F03D3E !important;
-    box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1);
+.input__input_error {
+    border: 1px solid #F03D3E !important;
+    box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1) !important;
 }
