@@ -1,0 +1,80 @@
+.toggle {
+    display: inline-block;
+    position: relative;
+}
+
+.toggle__input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.toggle__state {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle__legend {
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+    margin-left: 12px;
+}
+
+.toggle__control {
+    display: flex;
+    align-items: center;
+    width: 52px;
+    height: 28px;
+    box-sizing: border-box;
+    border: 1px solid #DDE2E5;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.toggle__check {
+    width: 24px;
+    height: 24px;
+    margin-left: 2px;
+    background: #DDE2E5;
+    border-radius: 16px;
+}
+
+.toggle__input:focus ~ .toggle__state .toggle__legend {
+    text-decoration: underline;
+}
+
+.toggle__input:disabled ~ .toggle__state {
+    cursor: not-allowed;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+    flex-direction: row-reverse;
+    background-color: #4263EB;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__check {
+    background-color: #FFFFFF;
+    border-color: #4263EB;
+    margin-left: 0;
+    margin-right: 2px;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control .toggle__checked {
+    display: block;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__check {
+    background: #ACB5BD;
+    opacity: 0.25;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+    background: #DDE2E5;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__legend {
+    color: #DDE2E5;
+}

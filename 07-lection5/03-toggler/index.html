@@ -3,9 +3,55 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./index.css">
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
+    <form class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">toggle</legend>
 
+            <label class="toggle form__control">
+                <input type="checkbox" class="toggle__input" name="toggle" value="1">
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <span class="toggle__check"></span>
+                    </div>
+                    <p class="toggle__legend">Off</p>
+                </div>
+            </label>
+
+            <label class="toggle form__control">
+                <input type="checkbox" class="toggle__input" name="toggle" value="1" checked>
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <span class="toggle__check"></span>
+                    </div>
+                    <p class="toggle__legend">On</p>
+                </div>
+            </label>
+
+            <label class="toggle form__control">
+                <input type="checkbox" class="toggle__input" name="toggle" value="1" disabled>
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <span class="toggle__check"></span>
+                    </div>
+                    <p class="toggle__legend">Off disabled</p>
+                </div>
+            </label>
+
+            <label class="toggle form__control">
+                <input type="checkbox" class="toggle__input" name="toggle" value="1" disabled checked>
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <span class="toggle__check"></span>
+                    </div>
+                    <p class="toggle__legend">On disabled</p>
+                </div>
+            </label>
+
+        </fieldset>
+    </form>
     </body>
 </html>
