@@ -1,3 +1,7 @@
+.input__area {
+    position: relative;
+}
+
 .input__name {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -28,11 +32,6 @@
 }
 
 .input__input::placeholder {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
     color: var(--grey-2)
 }
 
@@ -42,29 +41,29 @@
     box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-.input__success {
+.input_success {
     visibility: hidden;
     fill: white;
-    position: relative;
+    position: absolute;
     height: 100%;
-    top: 5px;
-    left: -40px;
+    top: 35%;
+    right: 5%;
 }
 
-.input__invalid {
+.input_invalid {
     visibility: hidden;
     fill: white;
-    position: relative;
+    position: absolute;
     height: 100%;
-    top: 5px;
-    left: -70px;
+    top: 35%;
+    right: 5%;
 }
 
-.input__input_success ~ .input__success {
+.input__input_success ~ .input_success {
     visibility: visible;
 }
 
-.input__input_invalid ~ .input__invalid {
+.input__input_invalid ~ .input_invalid {
     visibility: visible;
 }
 
