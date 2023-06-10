@@ -4,7 +4,7 @@
   "description": "Course Materials",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
-    "build": "postcss component/index.css -o build/index.css",
+    "build": "postcss component/index.css -o build/index.css"
   },
   "husky": {
     "hooks": {
@@ -40,6 +40,6 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
-  },
+  }
 
 }
