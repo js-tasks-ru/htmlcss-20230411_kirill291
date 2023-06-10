@@ -4,7 +4,8 @@
   "description": "Course Materials",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
-    "build": "postcss component/index.css -o build/index.css"
+    "build": "postcss component/index.css -o build/index.css",
+    "fix": "stylelint --fix **/*.scss"
   },
   "husky": {
     "hooks": {
@@ -42,5 +43,4 @@
     "prettier": "^2.2.1"
   },
 
-  "fix": "stylelint --fix **/*.scss",
 }
