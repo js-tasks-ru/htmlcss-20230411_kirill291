@@ -1,0 +1,53 @@
+.button {
+  height: 48px;
+  min-width: 100px;
+  border-radius: 8px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 15px 15px 14px;
+
+  &_primary {
+    background: #4263EB;
+    color: var(--white);
+  }
+
+  &_primary:hover{
+    background: #2342C0;
+  }
+
+  &:disabled{
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  &_secondary{
+    background: var(--purple);
+    color: var(--white);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+
+    &:hover{
+      background: #5028C6;
+    }
+
+  }
+
+  &_alternate {
+    background: white;
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+    box-sizing: border-box;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+
+    &:hover{
+      border: 1px solid var(--black);
+    }
+  }
+
+}

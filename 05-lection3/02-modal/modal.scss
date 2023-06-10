@@ -1,4 +1,11 @@
-.modal__content {
+.modal {
+  display: none;
+  background: rgba(196, 196, 196, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+
+  &__content {
     width: 428px;
     border-radius: 8px;
     position: absolute;
@@ -7,35 +14,28 @@
     transform: translate(-50%, -50%);
     background: white;
     padding: 30px 40px;
-}
+  }
 
-.modal__title {
+  &__title {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: #334D6E;
     margin-bottom: 24px;
-}
+  }
 
-.modal__text {
+  &__text {
     font-size: 16px;
     line-height: 24px;
     color: #495057;
-}
+  }
 
-.modal__close {
+  &__close {
     position: absolute;
     top: 12px;
     right: 12px;
     max-width: 15px;
     max-height: 15px;
     cursor: pointer;
-}
-
-.modal {
-    display: none;
-    background: rgba(196, 196, 196, 50%);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+  }
 }
