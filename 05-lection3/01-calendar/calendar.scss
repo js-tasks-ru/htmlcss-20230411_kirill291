@@ -6,7 +6,7 @@
   max-width: 300px;
 
   &__title {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -23,10 +23,7 @@
 
   &__inner {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
   }

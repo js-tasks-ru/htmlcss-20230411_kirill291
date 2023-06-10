@@ -1,4 +1,8 @@
 .accordion {
+  &__x-cross {
+    margin-right: 32px;
+  }
+
   &__item {
     margin-bottom: 8px;
     border: 1px solid var(--grey-3);
@@ -22,7 +26,7 @@
   }
 
   &__summary {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -37,16 +41,12 @@
   }
 
   &__text {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: var(--grey-4);
   margin-top: 16px;
-  }
-
-  &__x-cross {
-  margin-right: 32px;
   }
 }
