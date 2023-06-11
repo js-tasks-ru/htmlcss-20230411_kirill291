@@ -1,0 +1,30 @@
+.component__wrapper {
+    padding: 32px;
+}
+
+.component__heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #495057;
+}
+
+.component__histogram {
+    max-width: 30%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: var(--white);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    .component__histogram {
+        max-width: 100%;
+    }
+}

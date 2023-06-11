@@ -1,0 +1,37 @@
+.menu__heading {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+    color: #000000;
+}
+
+.menu__elements {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212429;
+}
+
+.menu__element {
+    color: #212429;
+    text-decoration: none;
+}
+
+.menu__element_selected {
+    color: #D84910;
+}
+
+.menu__element-last {
+    padding-top: 2rem;
+}
