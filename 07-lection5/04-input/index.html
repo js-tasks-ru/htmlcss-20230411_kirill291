@@ -3,22 +3,23 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="../../assets/css/main.css">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="input.css">
 </head>
 <body>
 <form class="form">
-    <div class="input">
+    <div class="input input_invalid">
         <label class="input__name" for="input__area">label</label>
         <div class="input__area">
-            <input type="text" class="input__input input__input_success" name="place" placeholder="Placeholder" id="input__area">
-            <svg width="24" height="24" class="input_success">
+            <input type="text" class="input__input" name="place" placeholder="Placeholder" id="input__area">
+            <svg width="24" height="24" class="input__icon input__icon_success">
                 <use xlink:href="/assets/images/sprite.svg#icon/success" />
             </svg>
-            <svg width="24" height="24" class="input_invalid">
+            <svg width="24" height="24" class="input__icon input__icon_invalid">
                 <use xlink:href="/assets/images/sprite.svg#icon/error" />
             </svg>
         </div>
+
     </div>
 
 </form>

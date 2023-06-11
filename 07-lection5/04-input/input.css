@@ -41,8 +41,7 @@
     box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-.input_success {
-    visibility: hidden;
+.input__icon {
     fill: white;
     position: absolute;
     height: 100%;
@@ -50,24 +49,23 @@
     right: 5%;
 }
 
-.input_invalid {
+.input__icon_success {
     visibility: hidden;
-    fill: white;
-    position: absolute;
-    height: 100%;
-    top: 35%;
-    right: 5%;
 }
 
-.input__input_success ~ .input_success {
+.input__icon_invalid {
+    visibility: hidden;
+}
+
+.input_success .input__area > .input__icon_success {
     visibility: visible;
 }
 
-.input__input_invalid ~ .input_invalid {
+.input_invalid .input__area > .input__icon_invalid {
     visibility: visible;
 }
 
-.input__input_invalid:focus {
+.input_invalid:focus {
     border: 1px solid #F03D3E !important;
     box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1) !important;
 }
