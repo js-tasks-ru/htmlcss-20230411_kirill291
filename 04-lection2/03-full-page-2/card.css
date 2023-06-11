@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 350px;
+    height: 367px;
+    background: white;
+    text-align: center;
+    align-items: center;
+
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #212429;
+
+    margin: 30px;
+
+    flex: 0 0 calc(30% - 30px);
+}
+
+.card__title {
+    margin-bottom: 30px;
+}
