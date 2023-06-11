@@ -1,0 +1,17 @@
+body
+    form.form
+        div.input
+            label.input__name
+            div.input__area
+            input#input__area.input__input.input__input_success
+            svg.input__success
+            svg.input__invalid
+
+body
+    form.form
+        div.input.input_success
+            label.input__name
+            div.input__area
+            input#input__area.input__input
+            svg.input__icon.input__icon_success
+            svg.input__icon.input__icon_invalid
