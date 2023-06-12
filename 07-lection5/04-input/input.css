@@ -42,24 +42,25 @@
 }
 
 .input__icon {
-   /* position: absolute;
+   /*
     height: 100%;
     top: 35%;
     right: 5%;*/
-    position: relative;
-    transform: translateY(20%);
+
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .input__icon_success {
-    fill: white;
+    fill: transparent;
     visibility: hidden;
-    right: 43px;
 }
 
 .input__icon_invalid {
-    fill: white;
+    fill: transparent;
     visibility: hidden;
-    right: 70px;
 }
 
 .input_success .input__area > .input__icon_success {
