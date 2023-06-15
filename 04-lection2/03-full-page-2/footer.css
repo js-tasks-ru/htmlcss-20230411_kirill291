@@ -4,8 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    padding: 71px;
+    padding: 71px 0;
 }
 
 .footer__heading {
@@ -19,7 +18,7 @@
 }
 
 .footer__text {
-    width: 640px;
+    max-width: 640px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -29,5 +28,5 @@
     text-align: center;
     color: #212429;
 
-    margin-top: 32px;
+    margin: 0 auto;
 }

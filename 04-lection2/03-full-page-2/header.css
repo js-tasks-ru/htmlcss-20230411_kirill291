@@ -1,6 +1,9 @@
 .header {
-    margin-top: 96px;
-    margin-bottom: 77px;
+    padding: 96px 0 77px;
+
+    /*max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;*/
 }
 
 .header__text {
@@ -11,5 +14,4 @@
     line-height: 64px;
     color: #212429;
     text-decoration: none;
-    margin-left: 160px;
 }
