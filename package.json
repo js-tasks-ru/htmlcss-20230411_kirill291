@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Course Materials",
   "scripts": {
-    "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js"
+    "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
+    "build": "postcss component/index.css -o build/index.css"
   },
   "husky": {
     "hooks": {
@@ -20,10 +21,19 @@
   "author": "Sergey Zelenov",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "chai": "^4.2.0",
     "cross-env": "^7.0.2",
+    "cssnano": "^6.0.1",
     "mocha": "^10.2.0",
-    "stylelint": "^15.6.2",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-scss": "^4.0.6",
+    "precss": "^4.0.0",
+    "sass": "^1.63.3",
+    "stylelint": "^15.7.0",
     "stylelint-config-standard": "^33.0.0"
   },
   "dependencies": {
@@ -31,4 +41,5 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   }
+
 }

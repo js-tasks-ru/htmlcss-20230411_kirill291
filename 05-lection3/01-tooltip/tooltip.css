@@ -15,23 +15,22 @@
 }
 
 .tooltip__helper {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #DDE2E5;
-    padding: 13px 21px 8px 21px;
+    padding: 13px 21px 8px;
     background: #4263EB;
-    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 5%);
     border-radius: 10px;
     position: absolute;
     white-space: nowrap;
     left: 50%;
     transform: translate(-50%, -100%);
     top: -8px;
-
     display: none;
 }
 
@@ -43,7 +42,7 @@
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #4263EB transparent transparent transparent;
+    border-color: #4263EB transparent transparent;
 }
 
 .tooltip:hover .tooltip__helper {

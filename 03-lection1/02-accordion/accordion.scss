@@ -1,0 +1,52 @@
+.accordion {
+  &__x-cross {
+    margin-right: 32px;
+  }
+
+  &__item {
+    margin-bottom: 8px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    background: var(--white);
+    display:block;
+    overflow:hidden;
+    padding: 24px 32px;
+
+    &[open] {
+      padding-bottom: 32px;
+
+      .accordion__x-cross{
+        transform: rotate(180deg);
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__summary {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  display: flex;
+  justify-content: space-between;
+
+  &::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+    }
+  }
+
+  &__text {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+  margin-top: 16px;
+  }
+}
