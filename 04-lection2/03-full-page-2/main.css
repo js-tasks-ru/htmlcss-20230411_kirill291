@@ -1,9 +1,0 @@
-@import 'assets/fonts/fonts.css';
-
-.container {
-    padding: 0 3rem;
-}
-
-.color-grey {
-    background: var(--grey-1);
-}
