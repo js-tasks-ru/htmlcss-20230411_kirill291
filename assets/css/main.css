@@ -27,14 +27,6 @@ body {
     margin: 0;
 }
 
-.container {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    align-items: center;
-}
-
 .main {
     align-items: center;
 }

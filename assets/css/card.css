@@ -1,16 +1,8 @@
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(350px, auto));
-    grid-gap: 16px;
-    padding: 68px 165px 92px;
-    justify-content: center;
-}
-
 .card {
     background: white;
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 0.75rem;
-    padding: 61px 25px 32px;
+    padding: 32px 25px;
     display: flex;
     flex-direction: column-reverse;
 }
