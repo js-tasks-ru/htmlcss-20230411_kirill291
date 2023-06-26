@@ -1,5 +1,11 @@
 @import '../fonts/fonts.css';
 
+body {
+    padding: 0;
+    margin: 0;
+    background: #F9FAFC;
+}
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -11,13 +17,6 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-
-    --error: var(--red);
-    --success: var(--blue);
-
-    --primary: var(--blue);
-    --secondary: var(--purple);
-}
 
 * {
     font-family: 'Roboto', sans-serif;
