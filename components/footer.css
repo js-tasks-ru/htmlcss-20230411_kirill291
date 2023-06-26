@@ -1,0 +1,12 @@
+.footer {
+    text-transform: uppercase;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #ACB5BD;
+    font-size: 12px;
+    line-height: 18px;
+    background: #F9FAFC;
+}

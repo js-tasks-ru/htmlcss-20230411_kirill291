@@ -2,35 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="page.css">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="component.css">
-    <link rel="stylesheet" href="histogram.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../components/page.css">
+    <link rel="stylesheet" href="../components/menu.css">
+    <link rel="stylesheet" href="../components/component.css">
+    <link rel="stylesheet" href="../components/histogram.css">
+    <link rel="stylesheet" href="../components/index.css">
+    <link rel="stylesheet" href="../components/header.css">
+    <link rel="stylesheet" href="../components/main.css">
+    <link rel="stylesheet" href="../components/footer.css">
     <link rel="stylesheet" href="/assets/fonts/fonts.css">
     <title>Template_1</title>
 </head>
 <body>
 <div class="page">
-  <header class="page__header">
+  <header class="header">
       <div class="page__logo">
           <svg class="page__icon" width="24" height="24">
-              <use xlink:href="sprite.svg#icon/square" />
+              <use xlink:href="/assets/images/sprite.svg#icon/square" />
           </svg>
       </div>
       <div class="page__logo">
           <svg class="page__icon" width="24" height="24">
-              <use xlink:href="sprite.svg#icon/circle" />
+              <use xlink:href="/assets/images/sprite.svg#icon/circle" />
           </svg>
       </div>
       <div class="page__logo">
           <svg class="page__icon" width="24" height="24">
-              <use xlink:href="sprite.svg#icon/rectangle" />
+              <use xlink:href="/assets/images/sprite.svg#icon/rectangle" />
           </svg>
       </div>
   </header>
-  <main class="page__main">
-      <div class="page__menu">
+  <main class="main">
+      <div class="menu">
           <div class="menu__wrapper">
               <h3 class="menu__heading">Components</h3>
               <nav>
@@ -47,10 +50,10 @@
           </div>
 
       </div>
-      <div class="page__component">
+      <div class="component">
           <div class="component__wrapper">
               <div class="component__heading">Histogram</div>
-              <div class="component__histogram">
+              <div class="component__description component__description_short">
 
                       <div class="histogram__header">
                           <p class="histogram__title">Total orders</p>
@@ -90,7 +93,7 @@
           </div>
       </div>
   </main>
-  <footer class="page__footer">
+  <footer class="footer">
       Reusable component library
   </footer>
 
