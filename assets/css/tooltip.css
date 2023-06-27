@@ -29,7 +29,7 @@
     position: absolute;
     white-space: nowrap;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translateX(-50%);
     bottom: calc(100% + 8px);
 
     display: none;
