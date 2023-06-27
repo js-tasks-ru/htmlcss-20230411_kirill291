@@ -1,0 +1,77 @@
+.input__area {
+    position: relative;
+}
+
+.input__name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
+
+.input__input {
+    margin-top: 5px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 350px;
+    height: 56px;
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4)
+}
+
+.input__input::placeholder {
+    color: var(--grey-2)
+}
+
+.input__input:focus {
+    outline: 0;
+    border-color: #4263EB;
+    box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
+}
+
+.input__icon {
+   /*
+    height: 100%;
+    top: 35%;
+    right: 5%;*/
+
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input__icon_success {
+    fill: transparent;
+    visibility: hidden;
+}
+
+.input__icon_invalid {
+    fill: transparent;
+    visibility: hidden;
+}
+
+.input_success .input__area > .input__icon_success {
+    visibility: visible;
+}
+
+.input_invalid .input__area > .input__icon_invalid {
+    visibility: visible;
+}
+
+.input_invalid:focus {
+    border: 1px solid #F03D3E !important;
+    box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1) !important;
+}
