@@ -1,12 +1,15 @@
-.modal-mini {
-    width: 100%;
-    max-width: 200px;
+.modal {
     position: relative;
-    border: 1px solid var(--grey-3);
     box-sizing: border-box;
-    border-radius: 8px;
     background-color: var(--white);
+}
+
+.modal__window {
+    position: relative;
+    max-width: 200px;
+    border: 1px solid var(--grey-3);
     padding: 16px 24px 24px;
+    border-radius: 8px;
 }
 
 .modal__close {
