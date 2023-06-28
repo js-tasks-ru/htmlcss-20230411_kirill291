@@ -4,12 +4,3 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-
-.page__logo {
-    margin-left: 8px;
-    align-items: center;
-}
-
-.page__icon {
-    height: 100%;
-}
