@@ -1,0 +1,16 @@
+.header {
+  height: 82px;
+  background: #F9FAFC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  margin-left: 8px;
+  align-items: center;
+}
+
+.header__icon {
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+.main {
+    background: #F9FAFC;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+@media screen and (max-width: 800px) {
+
+    .main {
+        /*display: block;*/
+    }
+
+}
